@@ -19,7 +19,7 @@ dependencies:
     version: 5.12.2(react@18.2.0)
   antd:
     specifier: ^5.11.5
-    version: 5.11.5(luxon@3.4.4)(react-dom@18.2.0)(react@18.2.0)
+    version: 5.11.5(react-dom@18.2.0)(react@18.2.0)
   axios:
     specifier: ^1.6.2
     version: 1.6.2
@@ -44,9 +44,6 @@ dependencies:
   immer:
     specifier: ^10.0.3
     version: 10.0.3
-  luxon:
-    specifier: ^3.4.4
-    version: 3.4.4
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -73,9 +70,6 @@ dependencies:
     version: 4.4.7(@types/react@18.2.39)(immer@10.0.3)(react@18.2.0)
 
 devDependencies:
-  '@types/luxon':
-    specifier: ^3.4.0
-    version: 3.4.0
   '@types/node':
     specifier: ^20.10.5
     version: 20.10.5
@@ -1127,10 +1121,6 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/luxon@3.4.0:
-    resolution: {integrity: sha512-PEVoA4MOfSsFNaPrZjIUGUZujBDxnO/tj2A2N9KfzlR+pNgpBdDuk0TmRvSMAVUP5q4q8IkMEZ8UOp3MIr+QgA==}
-    dev: true
-
   /@types/minimatch@3.0.5:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
     dev: true
@@ -1387,7 +1377,7 @@ packages:
       color-convert: 2.0.1
     dev: true
 
-  /antd@5.11.5(luxon@3.4.4)(react-dom@18.2.0)(react@18.2.0):
+  /antd@5.11.5(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-qB1YmvO4Zm4r48M0Ptxn7orpaXeMPSeTrrw6dAgtTYN+ysnWD/D/zlxFc5g73GywIzZ10XGqvNC+74A+HD0yeQ==}
     peerDependencies:
       react: '>=16.9.0'
@@ -1422,7 +1412,7 @@ packages:
       rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
       rc-notification: 5.3.0(react-dom@18.2.0)(react@18.2.0)
       rc-pagination: 3.7.0(react-dom@18.2.0)(react@18.2.0)
-      rc-picker: 3.14.6(dayjs@1.11.10)(luxon@3.4.4)(react-dom@18.2.0)(react@18.2.0)
+      rc-picker: 3.14.6(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0)
       rc-progress: 3.5.1(react-dom@18.2.0)(react@18.2.0)
       rc-rate: 2.12.0(react-dom@18.2.0)(react@18.2.0)
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
@@ -3086,11 +3076,6 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /luxon@3.4.4:
-    resolution: {integrity: sha512-zobTr7akeGHnv7eBOXcRgMeCP6+uyYsczwmeRCauvpvaAltgNyTbLH/+VaEAPUeWBT+1GuNmz4wC/6jtQzbbVA==}
-    engines: {node: '>=12'}
-    dev: false
-
   /matcher-collection@2.0.1:
     resolution: {integrity: sha512-daE62nS2ZQsDg9raM0IlZzLmI2u+7ZapXBwdoeBUKAYERPDDIc0qNqA8E0Rp2D+gspKR7BgIFP52GeujaGXWeQ==}
     engines: {node: 6.* || 8.* || >= 10.*}
@@ -3631,7 +3616,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /rc-picker@3.14.6(dayjs@1.11.10)(luxon@3.4.4)(react-dom@18.2.0)(react@18.2.0):
+  /rc-picker@3.14.6(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-AdKKW0AqMwZsKvIpwUWDUnpuGKZVrbxVTZTNjcO+pViGkjC1EBcjMgxVe8tomOEaIHJL5Gd13vS8Rr3zzxWmag==}
     engines: {node: '>=8.x'}
     peerDependencies:
@@ -3655,7 +3640,6 @@ packages:
       '@rc-component/trigger': 1.18.2(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.3.2
       dayjs: 1.11.10
-      luxon: 3.4.4
       rc-util: 5.38.1(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
